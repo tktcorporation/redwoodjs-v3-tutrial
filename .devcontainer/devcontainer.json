@@ -7,10 +7,8 @@
       "runOnSave.commands": [
         {
           "globMatch": "**/*",
-          "command": "docker-compose exec -T app /bin/bash -c \"dum format\"",
-          "runIn": "backend",
-          "runningStatusMessage": "dum format",
-          "finishStatusMessage": "dum format completed"
+          "command": "docker-compose exec -T app /bin/bash -c \"dum rw lint --fix\"",
+          "runIn": "backend"
         }
       ]
     },

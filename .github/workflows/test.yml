@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Test
-        run: docker-compose run --rm app /bin/bash -c "dum i && dum rw test --no-watch"
+        run: docker-compose run --rm app /bin/bash -c "dum i && dum rw lint --fix && dum rw test --no-watch"
