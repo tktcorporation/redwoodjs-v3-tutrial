@@ -1,4 +1,4 @@
-name: auto-merge
+name: test-and-auto-merge
 on: pull_request_target
 
 permissions:
@@ -11,21 +11,19 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
-      - name: install, lint, build
+      - name: install, lint, test
         run: |
-          docker-compose run --rm app /bin/bash -c "yarn && yarn lint && yarn build"
+          docker-compose run --rm app /bin/bash -c "dum i && dum rw lint && dum rw test --no-watch"
 
   dependabot:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    if: ${{ github.actor == 'dependabot[bot]' }}
+    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     needs: test
     steps:
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v1.3.3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Enable auto-merge for Dependabot PRs
         if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor' }}
         run: gh pr merge --auto --merge "$PR_URL"

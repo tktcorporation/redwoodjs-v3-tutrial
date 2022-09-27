@@ -1,5 +1,8 @@
 name: Test
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
@@ -10,5 +13,7 @@ jobs:
         shell: bash
     steps:
       - uses: actions/checkout@v3
+      # cache
+      
       - name: Test
         run: docker-compose run --rm app /bin/bash -c "dum i && dum rw lint --fix && dum rw test --no-watch"
