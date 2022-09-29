@@ -2486,25 +2486,6 @@
     split2 "4.1.0"
     yargs "17.5.1"
 
-"@redwoodjs/api@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-3.0.1.tgz#d74b37743c2a0b3a7f44a53b7874b0651ff8cfbb"
-  dependencies:
-    "@babel/runtime-corejs3" "7.19.0"
-    "@prisma/client" "4.3.1"
-    base64url "3.0.1"
-    core-js "3.25.1"
-    cross-undici-fetch "0.4.14"
-    crypto-js "4.1.1"
-    humanize-string "2.1.0"
-    jsonwebtoken "8.5.1"
-    jwks-rsa "2.0.5"
-    md5 "2.3.0"
-    pascalcase "1.0.0"
-    pino "8.5.0"
-    title-case "3.0.3"
-    uuid "9.0.0"
-
 "@redwoodjs/api@3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-3.0.3.tgz#fd8068891cd41f429e2c0299c1e3529dc4118f65"
@@ -2666,31 +2647,6 @@
     core-js "3.25.1"
     pascalcase "1.0.0"
     react-hook-form "7.35.0"
-
-"@redwoodjs/graphql-server@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/graphql-server/-/graphql-server-3.0.1.tgz#5b526bc08af3aca633a7c614254feea5a669f8a0"
-  dependencies:
-    "@babel/runtime-corejs3" "7.19.0"
-    "@envelop/depth-limit" "1.6.2"
-    "@envelop/disable-introspection" "3.4.2"
-    "@envelop/filter-operation-type" "3.4.2"
-    "@envelop/parser-cache" "4.5.2"
-    "@envelop/validation-cache" "4.5.2"
-    "@graphql-tools/merge" "8.3.3"
-    "@graphql-tools/schema" "8.5.1"
-    "@graphql-tools/utils" "8.10.0"
-    "@graphql-yoga/common" "2.12.12"
-    "@prisma/client" "4.3.1"
-    "@redwoodjs/api" "3.0.1"
-    core-js "3.25.1"
-    cross-undici-fetch "0.4.14"
-    graphql "16.6.0"
-    graphql-scalars "1.17.0"
-    graphql-tag "2.12.6"
-    lodash.merge "4.6.2"
-    lodash.omitby "4.6.0"
-    uuid "9.0.0"
 
 "@redwoodjs/graphql-server@3.0.3":
   version "3.0.3"
