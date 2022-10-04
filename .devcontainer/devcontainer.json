@@ -22,8 +22,12 @@
       "mhutchie.git-graph",
       "steoates.autoimport",
       "pucelle.run-on-save",
-      "Prisma.prisma"
-  ],
+      "Prisma.prisma",
+      "WallabyJs.console-ninja",
+      "antfu.iconify",
+      "Atishay-Jain.All-Autocomplete",
+      "usernamehw.errorlens"
+    ],
   
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
@@ -35,4 +39,4 @@
     "features": {
       "homebrew": "latest"
     }
-  }
+}
