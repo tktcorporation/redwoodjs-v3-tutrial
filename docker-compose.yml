@@ -21,7 +21,7 @@ services:
       # - db
       # - db-test
   db:
-    image: postgres
+    image: postgres:14
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
@@ -31,7 +31,7 @@ services:
     ports:
       - "5432:5432"
   db-test:
-    image: postgres
+    image: postgres:14
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
