@@ -51,11 +51,7 @@ const ContactPage = () => {
       <MetaTags title="Contact" description="Contact page" />
 
       <Toaster />
-      <Form
-        onSubmit={onSubmit}
-        error={error}
-        formMethods={formMethods}
-      >
+      <Form onSubmit={onSubmit} error={error} formMethods={formMethods}>
         <FormError error={error} wrapperClassName="form-error" />
         <Label name="name" errorClassName="error">
           Name
