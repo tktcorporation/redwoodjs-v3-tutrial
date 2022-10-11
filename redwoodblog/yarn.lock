@@ -3583,6 +3583,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/api@npm:3.1.2":
+  version: 3.1.2
+  resolution: "@redwoodjs/api@npm:3.1.2"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.1
+    "@prisma/client": 4.3.1
+    base64url: 3.0.1
+    core-js: 3.25.3
+    cross-undici-fetch: 0.4.14
+    crypto-js: 4.1.1
+    humanize-string: 2.1.0
+    jsonwebtoken: 8.5.1
+    jwks-rsa: 2.0.5
+    md5: 2.3.0
+    pascalcase: 1.0.0
+    pino: 8.5.0
+    title-case: 3.0.3
+    uuid: 9.0.0
+  peerDependencies:
+    "@clerk/clerk-sdk-node": 3.9.2
+    "@magic-sdk/admin": 1.4.1
+    "@okta/jwt-verifier": 2.6.0
+    firebase-admin: 10.3.0
+  peerDependenciesMeta:
+    "@clerk/clerk-sdk-node":
+      optional: true
+    "@magic-sdk/admin":
+      optional: true
+    "@okta/jwt-verifier":
+      optional: true
+    firebase-admin:
+      optional: true
+  bin:
+    redwood: dist/bins/redwood.js
+    rw: dist/bins/redwood.js
+    rwfw: dist/bins/rwfw.js
+    tsc: dist/bins/tsc.js
+  checksum: 28aad196daf8d630841ceabd1a275619d41abd6dfb51d51a6760813d0f3cb39767aab33d9ef68d2ba0d9706423943f91d7dfed4707c6f82d9d030e1337f8dddf
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/auth@npm:3.1.0":
   version: 3.1.0
   resolution: "@redwoodjs/auth@npm:3.1.0"
@@ -7156,7 +7197,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 3.1.0
+    "@redwoodjs/api": 3.1.2
     "@redwoodjs/graphql-server": 3.1.0
   languageName: unknown
   linkType: soft
