@@ -3583,6 +3583,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/api@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@redwoodjs/api@npm:3.2.1"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.1
+    "@prisma/client": 4.3.1
+    base64url: 3.0.1
+    core-js: 3.25.5
+    cross-undici-fetch: 0.4.14
+    crypto-js: 4.1.1
+    humanize-string: 2.1.0
+    jsonwebtoken: 8.5.1
+    jwks-rsa: 2.0.5
+    md5: 2.3.0
+    pascalcase: 1.0.0
+    pino: 8.6.1
+    title-case: 3.0.3
+    uuid: 9.0.0
+  peerDependencies:
+    "@clerk/clerk-sdk-node": 3.9.2
+    "@magic-sdk/admin": 1.4.1
+    "@okta/jwt-verifier": 2.6.0
+    firebase-admin: 10.3.0
+  peerDependenciesMeta:
+    "@clerk/clerk-sdk-node":
+      optional: true
+    "@magic-sdk/admin":
+      optional: true
+    "@okta/jwt-verifier":
+      optional: true
+    firebase-admin:
+      optional: true
+  bin:
+    redwood: dist/bins/redwood.js
+    rw: dist/bins/redwood.js
+    rwfw: dist/bins/rwfw.js
+    tsc: dist/bins/tsc.js
+  checksum: 6222bf11828eda4dd4c3180bb79127d84c545d0c9ada09522bec2109f0e73e68e61521ceeeea35fff6d1aa8c7594759ab6ad6500d9e4758258acfb23099ac364
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/auth@npm:3.1.0":
   version: 3.1.0
   resolution: "@redwoodjs/auth@npm:3.1.0"
@@ -7156,7 +7197,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 3.1.0
+    "@redwoodjs/api": 3.2.1
     "@redwoodjs/graphql-server": 3.1.0
   languageName: unknown
   linkType: soft
@@ -9561,7 +9602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:3.25.5, core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.25.5
   resolution: "core-js@npm:3.25.5"
   checksum: 4b94b271f924cecf98fa5b1031c0109c9da2ff97a3d4df83465be9e90c3bf0b32a0bed98bb6a3c3aaa8951109c6fb9b3111fbe77a7036e075619c5a40a79dfbf
@@ -18354,6 +18395,27 @@ __metadata:
   bin:
     pino: bin.js
   checksum: f73e539fadc4b208083b70c80d833f7f3019d1032ae128dd6981c4a825ea5c038e55c4758006378e8086f8fd856628a80308b4c0bb09828d9cba81f6c4381d88
+  languageName: node
+  linkType: hard
+
+"pino@npm:8.6.1":
+  version: 8.6.1
+  resolution: "pino@npm:8.6.1"
+  dependencies:
+    atomic-sleep: ^1.0.0
+    fast-redact: ^3.1.1
+    on-exit-leak-free: ^2.1.0
+    pino-abstract-transport: v1.0.0
+    pino-std-serializers: ^6.0.0
+    process-warning: ^2.0.0
+    quick-format-unescaped: ^4.0.3
+    real-require: ^0.2.0
+    safe-stable-stringify: ^2.3.1
+    sonic-boom: ^3.1.0
+    thread-stream: ^2.0.0
+  bin:
+    pino: bin.js
+  checksum: 4cf2f6871c40965fa6e4c3cc5be458aa449fbdfd866b3de3c3214d859a0d84d1193a1ed01d3b9549138fd0bdcc7c651f1e1a5be3c8c43c093b528ef44d0c478b
   languageName: node
   linkType: hard
 
