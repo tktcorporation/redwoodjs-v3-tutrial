@@ -3738,18 +3738,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@redwoodjs/forms@npm:3.1.0"
+"@redwoodjs/forms@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@redwoodjs/forms@npm:3.2.1"
   dependencies:
     "@babel/runtime-corejs3": 7.19.1
-    core-js: 3.25.3
+    core-js: 3.25.5
     pascalcase: 1.0.0
     react-hook-form: 7.36.1
   peerDependencies:
     graphql: 16.6.0
     react: 17.0.2
-  checksum: a3b5305ba472ce8a5d467255a05653588dc49293b7ab2f3a0e94c508e36017e6797cc3bfbfa2755b2e081ea7a0f2034866b6a3964005d3dfe4685776e7673769
+  checksum: 0f660e5b582885166a89ef3dbd9fcdccc598bdcb7eac7270a48ccabe4c2bd080c6435ce396a33a83ad775b9cac9de926155f6e6eb2297385f0bad406de7ef971
   languageName: node
   linkType: hard
 
@@ -9561,7 +9561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:3.25.5, core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.25.5
   resolution: "core-js@npm:3.25.5"
   checksum: 4b94b271f924cecf98fa5b1031c0109c9da2ff97a3d4df83465be9e90c3bf0b32a0bed98bb6a3c3aaa8951109c6fb9b3111fbe77a7036e075619c5a40a79dfbf
@@ -23274,7 +23274,7 @@ __metadata:
   resolution: "web@workspace:web"
   dependencies:
     "@redwoodjs/auth": 3.1.0
-    "@redwoodjs/forms": 3.1.0
+    "@redwoodjs/forms": 3.2.1
     "@redwoodjs/router": 3.1.0
     "@redwoodjs/web": 3.1.0
     humanize-string: 2.1.0
