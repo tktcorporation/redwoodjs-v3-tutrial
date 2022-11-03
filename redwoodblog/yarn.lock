@@ -1687,6 +1687,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:7.19.4":
+  version: 7.19.4
+  resolution: "@babel/runtime-corejs3@npm:7.19.4"
+  dependencies:
+    core-js-pure: ^3.25.1
+    regenerator-runtime: ^0.13.4
+  checksum: 01b55c54c4b649d4897f873982ee0097b1f9d597b62a97491c5ca4b0e659bf9576914d00b2cd6d140f19497a8f5ace6efdb958eff123ffa499c422f338946deb
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.19.0
   resolution: "@babel/runtime@npm:7.19.0"
@@ -3593,6 +3603,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/auth@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@redwoodjs/auth@npm:3.3.0"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.4
+    core-js: 3.25.5
+  checksum: a4098070ae52f4ffda4dafc21ab01fa25cf9d29f7f5a8ad1edbdc8ae04d6fed59675f11b171dd6ae90fb16c9e37623facbca0831614ad7b6be58393ea66e1f60
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/cli@npm:3.1.0":
   version: 3.1.0
   resolution: "@redwoodjs/cli@npm:3.1.0"
@@ -3857,6 +3877,19 @@ __metadata:
     core-js: 3.25.3
     lodash.isequal: 4.5.0
   checksum: cb66a44e2a538506e7367a7f287c7e8bb856ab91810de1013d259cf91e0c90f8e6b92c3a564bc90fe5cae4786188c87d714a4d4a5a598c5ed8b746d0b8a88f25
+  languageName: node
+  linkType: hard
+
+"@redwoodjs/router@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@redwoodjs/router@npm:3.3.0"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.4
+    "@reach/skip-nav": 0.16.0
+    "@redwoodjs/auth": 3.3.0
+    core-js: 3.25.5
+    lodash.isequal: 4.5.0
+  checksum: 35674207ed9f41ef51b36c32ce5ad82b5f965d45e9a6351d3d7091754ccbf6499352969227c34f73357cdc79172ebcccd3fa4e022b15c0ec7109e3011ecf21ee
   languageName: node
   linkType: hard
 
@@ -9561,7 +9594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:3.25.5, core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.25.5
   resolution: "core-js@npm:3.25.5"
   checksum: 4b94b271f924cecf98fa5b1031c0109c9da2ff97a3d4df83465be9e90c3bf0b32a0bed98bb6a3c3aaa8951109c6fb9b3111fbe77a7036e075619c5a40a79dfbf
@@ -23275,7 +23308,7 @@ __metadata:
   dependencies:
     "@redwoodjs/auth": 3.1.0
     "@redwoodjs/forms": 3.1.0
-    "@redwoodjs/router": 3.1.0
+    "@redwoodjs/router": 3.3.0
     "@redwoodjs/web": 3.1.0
     humanize-string: 2.1.0
     prop-types: 15.8.1
