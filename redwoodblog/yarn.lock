@@ -1687,6 +1687,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:7.19.4":
+  version: 7.19.4
+  resolution: "@babel/runtime-corejs3@npm:7.19.4"
+  dependencies:
+    core-js-pure: ^3.25.1
+    regenerator-runtime: ^0.13.4
+  checksum: 01b55c54c4b649d4897f873982ee0097b1f9d597b62a97491c5ca4b0e659bf9576914d00b2cd6d140f19497a8f5ace6efdb958eff123ffa499c422f338946deb
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.19.0
   resolution: "@babel/runtime@npm:7.19.0"
@@ -3738,18 +3748,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@redwoodjs/forms@npm:3.1.0"
+"@redwoodjs/forms@npm:3.3.1":
+  version: 3.3.1
+  resolution: "@redwoodjs/forms@npm:3.3.1"
   dependencies:
-    "@babel/runtime-corejs3": 7.19.1
-    core-js: 3.25.3
+    "@babel/runtime-corejs3": 7.19.4
+    core-js: 3.25.5
     pascalcase: 1.0.0
-    react-hook-form: 7.36.1
+    react-hook-form: 7.37.0
   peerDependencies:
     graphql: 16.6.0
     react: 17.0.2
-  checksum: a3b5305ba472ce8a5d467255a05653588dc49293b7ab2f3a0e94c508e36017e6797cc3bfbfa2755b2e081ea7a0f2034866b6a3964005d3dfe4685776e7673769
+  checksum: 4257e9bf3b5ee454c858314f41c7037f0f581e84907a38871527b8088f2828abc632d379134dded1e0f09688f41171c5f201680e5182abc493447e65adf5b644
   languageName: node
   linkType: hard
 
@@ -9561,7 +9571,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:3.25.5, core-js@npm:^3.0.4, core-js@npm:^3.25.1, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.25.5
   resolution: "core-js@npm:3.25.5"
   checksum: 4b94b271f924cecf98fa5b1031c0109c9da2ff97a3d4df83465be9e90c3bf0b32a0bed98bb6a3c3aaa8951109c6fb9b3111fbe77a7036e075619c5a40a79dfbf
@@ -19499,12 +19509,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:7.36.1":
-  version: 7.36.1
-  resolution: "react-hook-form@npm:7.36.1"
+"react-hook-form@npm:7.37.0":
+  version: 7.37.0
+  resolution: "react-hook-form@npm:7.37.0"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18
-  checksum: 28a36ccd600f3781a35fa5eddb1b8ef2c73fa3388814f81d1a71e3d43eb8ff676d3d384dcd16322f29bc89c04d0a87be3972b97cc635b9af2b8f6cf8b55b1f87
+  checksum: f879bb8618388be60b2bd9b06f9b55097ab9a7f3b248a7a9de7d754ac0ed8a2c7a50c1701a9cf5796dd67de9c156ff9db8b1138a45e278ab968d08d6a7ff2608
   languageName: node
   linkType: hard
 
@@ -23274,7 +23284,7 @@ __metadata:
   resolution: "web@workspace:web"
   dependencies:
     "@redwoodjs/auth": 3.1.0
-    "@redwoodjs/forms": 3.1.0
+    "@redwoodjs/forms": 3.3.1
     "@redwoodjs/router": 3.1.0
     "@redwoodjs/web": 3.1.0
     humanize-string: 2.1.0
